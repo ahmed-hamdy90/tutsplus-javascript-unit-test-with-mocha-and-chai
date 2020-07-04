@@ -1,0 +1,41 @@
+{
+  "name": "mochacourse",
+  "version": "1.0.0",
+  "description": "learning how to write javascript unit test",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js --bail --reporter spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-hamdy90/ahmed-hamdy90/javascript-unit-test.git"
+  },
+  "keywords": [
+    "javascript",
+    "unittest",
+    "mocha",
+    "chai",
+    "sinon"
+  ],
+  "author": "ahmed hamdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-hamdy90/ahmed-hamdy90/javascript-unit-test/issues"
+  },
+  "homepage": "https://github.com/ahmed-hamdy90/ahmed-hamdy90/javascript-unit-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^7.0.2",
+    "mocha": "^7.2.0",
+    "sinon": "^9.0.2"
+  }
+}
