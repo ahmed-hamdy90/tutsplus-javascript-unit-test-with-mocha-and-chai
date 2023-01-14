@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ahmed-hamdy90/ahmed-hamdy90/javascript-unit-test#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "pug": "^3.0.1"
   },
   "devDependencies": {
